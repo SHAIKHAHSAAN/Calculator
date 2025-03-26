@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" disabled>
+        <table>
+            <tr id="sci-cal">
+                <td onclick="perCalculate()">Per</td>
+                <td onclick="appendValue()">sin</td>
+                <td onclick="appendValue('%')">cos</td>
+                <td onclick="appendValue('+')">tan</td>
+            </tr>
+            <tr>
+                <td onclick="clearDisplay()">DEL</td>
+                <td onclick="Clearlastone()">AC</td>
+                <td onclick="appendValue('%')">%</td>
+                <td onclick="appendValue('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="appendValue('9')">9</td>
+                <td onclick="appendValue('8')">8</td>
+                <td onclick="appendValue('7')">7</td>
+                <td onclick="appendValue('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="appendValue('6')">6</td>
+                <td onclick="appendValue('5')">5</td>
+                <td onclick="appendValue('4')">4</td>
+                <td onclick="appendValue('*')">x</td>
+            </tr>
+            <tr>
+                <td onclick="appendValue('3')">3</td>
+                <td onclick="appendValue('2')">2</td>
+                <td onclick="appendValue('1')">1</td>
+                <td onclick="appendValue('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="appendValue('00')">00</td>
+                <td onclick="appendValue('0')">0</td>
+                <td onclick="calculateResult()">=</td>
+                <td onclick="turnSciCal()">S/F</td>
+            </tr>
+        </table>
+ <script <source src="first.js"></script>
+</body>
+</html>
